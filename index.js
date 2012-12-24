@@ -3,6 +3,10 @@ window.DS = Ember.Namespace.create({
   CURRENT_API_REVISION: 10
 });
 
+try {
+  global.DS = window.DS;
+} catch (error) {}
+
 })();
 
 
