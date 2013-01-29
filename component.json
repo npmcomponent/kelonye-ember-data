@@ -2,7 +2,7 @@
   "name": "ember-data",
   "repo": "kelonye/ember-data",
   "version": "11",
-  "description": "A data persistence library for ember.js.",
+  "description": "Ember-data component",
   "dependencies":{
     "kelonye/ember":"*"
   },
