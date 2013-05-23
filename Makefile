@@ -1,9 +1,4 @@
-index.js: data
-	@cd $< && git pull && bundle && bundle exec rake dist
-	@cp -f $</dist/ember-data.min.js $@
-	@du -bh $@
-
-data:
-	@git clone https://github.com/emberjs/data.git $@
+index.js:
+	@curl -o $@ http://builds.emberjs.com.s3.amazonaws.com/ember-data-latest.js
 
 .PHONY: index.js
