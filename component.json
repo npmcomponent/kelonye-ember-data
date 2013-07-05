@@ -1,5 +1,6 @@
 {
   "name": "ember-data",
+  "version": "0.0.13",
   "dependencies":{
     "kelonye/ember":"*"
   },
