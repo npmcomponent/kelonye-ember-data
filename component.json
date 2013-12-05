@@ -2,7 +2,7 @@
   "name": "ember-data",
   "version": "1.0.0-beta.4",
   "dependencies":{
-    "kelonye/ember":"*"
+    "kelonye/ember":"1.0.0-rc6"
   },
   "main": "lib/index.js",
   "scripts":[
