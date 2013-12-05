@@ -1,11 +1,12 @@
 {
   "name": "ember-data",
-  "version": "0.0.13",
+  "version": "1.0.0-beta.4",
   "dependencies":{
     "kelonye/ember":"*"
   },
+  "main": "lib/index.js",
   "scripts":[
-    "index.js",
+    "lib/index.js",
     "lib/ember-data.js"
   ]
 }

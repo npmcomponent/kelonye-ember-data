@@ -1,4 +1,4 @@
 Install
 ---
 
-```component install kelonye/ember-data```
+    $ component install kelonye/ember-data
