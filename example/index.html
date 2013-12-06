@@ -18,7 +18,7 @@
       });
       App.IndexRoute = Em.Route.extend({
         model: function(){
-          return this.get('store').createRecord('Book', {
+          return App.Book.createRecord('Book', {
             title: 'Ember.js cookbook',
             author: 'JD'
           });
