@@ -1,8 +1,8 @@
 {
-  "name": "ember-data",
+  "name": "kelonye-ember-data",
   "version": "1.0.0-beta.4",
-  "license": "MIT",
+  "main": "lib/index.js",
   "dependencies": {
-    "component-hooks": "*"
+    "kelonye-ember": "git://github.com/npmcomponent/kelonye-ember.git"
   }
 }
